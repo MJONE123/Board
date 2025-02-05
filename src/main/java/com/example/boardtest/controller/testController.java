@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class testController {
     @GetMapping("/test")
     public String test() {
-        return "테스트입니다~~~";
+        return "테스트~~~맥북 설정 잘하자~";
     }
 }
