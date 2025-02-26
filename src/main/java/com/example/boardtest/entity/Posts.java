@@ -31,3 +31,4 @@ public class    Posts {
         this.content = content;
     }
 }
+
