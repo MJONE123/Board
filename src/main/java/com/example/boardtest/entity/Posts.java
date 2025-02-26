@@ -24,4 +24,10 @@ public class    Posts {
 
     @Column(nullable = false)
     private String content;
+
+    // DTO를 사용한 생성자 추가
+    public Posts(String title, String content) {
+        this.title = title;
+        this.content = content;
+    }
 }
